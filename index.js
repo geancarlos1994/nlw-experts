@@ -1,95 +1,96 @@
 const perguntas = [
     {
-      pergunta: "Qual é a forma correta de declarar uma variável em JavaScript?",
+      pergunta: "Qual é a capital do Brasil?",
       respostas: [
-        "const minhaVariavel",
-        "var minhaVariavel",
-        "let minhaVariavel"
+        "Rio de Janeiro",
+        "São Paulo",
+        "Brasília"
       ],
-      correta: 2 // A resposta correta é a terceira opção (let minhaVariavel)
+      correta: 2 // Resposta correta: Brasília
     },
     {
-      pergunta: "Qual é o método utilizado para adicionar um elemento ao final de um array em JavaScript?",
+      pergunta: "Qual é o maior oceano do mundo?",
       respostas: [
-        "push()",
-        "add()",
-        "append()"
+        "Oceano Atlântico",
+        "Oceano Índico",
+        "Oceano Pacífico"
       ],
-      correta: 0 // A resposta correta é a primeira opção (push())
+      correta: 2 // Resposta correta: Oceano Pacífico
     },
     {
-      pergunta: "O que o operador '===' faz em JavaScript?",
+      pergunta: "Quem escreveu 'Dom Quixote'?",
       respostas: [
-        "Compara dois valores quanto ao seu valor e tipo",
-        "Compara dois valores apenas quanto ao seu valor",
-        "Compara dois valores apenas quanto ao seu tipo"
+        "William Shakespeare",
+        "Miguel de Cervantes",
+        "Charles Dickens"
       ],
-      correta: 0 // A resposta correta é a primeira opção (Compara dois valores quanto ao seu valor e tipo)
+      correta: 1 // Resposta correta: Miguel de Cervantes
     },
     {
-      pergunta: "Como você pode converter uma string em um número em JavaScript?",
+      pergunta: "Qual é o maior planeta do sistema solar?",
       respostas: [
-        "parseInt()",
-        "toString()",
-        "toFixed()"
+        "Júpiter",
+        "Terra",
+        "Saturno"
       ],
-      correta: 0 // A resposta correta é a primeira opção (parseInt())
+      correta: 0 // Resposta correta: Júpiter
     },
     {
-      pergunta: "Qual é o símbolo para comentários de linha única em JavaScript?",
+      pergunta: "Qual é a capital da França?",
       respostas: [
-        "//",
-        "/* */",
-        "<!-- -->"
+        "Londres",
+        "Madri",
+        "Paris"
       ],
-      correta: 0 // A resposta correta é a primeira opção (//)
+      correta: 2 // Resposta correta: Paris
     },
     {
-      pergunta: "Qual é o método utilizado para remover o último elemento de um array em JavaScript?",
+      pergunta: "Quem pintou a 'Mona Lisa'?",
       respostas: [
-        "pop()",
-        "remove()",
-        "delete()"
+        "Leonardo da Vinci",
+        "Pablo Picasso",
+        "Vincent van Gogh"
       ],
-      correta: 0 // A resposta correta é a primeira opção (pop())
+      correta: 0 // Resposta correta: Leonardo da Vinci
     },
     {
-      pergunta: "Qual é a função do método 'addEventListener' em JavaScript?",
+      pergunta: "Quantos continentes existem?",
       respostas: [
-        "Adicionar um ouvinte de eventos a um elemento HTML",
-        "Remover um ouvinte de eventos de um elemento HTML",
-        "Alterar um ouvinte de eventos de um elemento HTML"
+        "5",
+        "6",
+        "7"
       ],
-      correta: 0 // A resposta correta é a primeira opção (Adicionar um ouvinte de eventos a um elemento HTML)
+      correta: 2 // Resposta correta: 7
     },
     {
-      pergunta: "Qual é a maneira correta de escrever um comentário de várias linhas em JavaScript?",
+      pergunta: "Qual é a capital do Japão?",
       respostas: [
-        "/* Este é um comentário de várias linhas */",
-        "// Este é um comentário de várias linhas //",
-        "<!-- Este é um comentário de várias linhas -->"
+        "Pequim",
+        "Tóquio",
+        "Seul"
       ],
-      correta: 0 // A resposta correta é a primeira opção (/* Este é um comentário de várias linhas */)
+      correta: 1 // Resposta correta: Tóquio
     },
     {
-      pergunta: "O que o método 'toFixed()' faz em JavaScript?",
+      pergunta: "Quem foi o primeiro homem a pisar na lua?",
       respostas: [
-        "Formata um número com um número fixo de casas decimais",
-        "Remove as casas decimais de um número",
-        "Arredonda um número para o inteiro mais próximo"
+        "Neil Armstrong",
+        "Buzz Aldrin",
+        "Yuri Gagarin"
       ],
-      correta: 0 // A resposta correta é a primeira opção (Formata um número com um número fixo de casas decimais)
+      correta: 0 // Resposta correta: Neil Armstrong
     },
     {
-      pergunta: "Qual é a função do operador 'typeof' em JavaScript?",
+      pergunta: "Qual é o metal mais abundante na crosta terrestre?",
       respostas: [
-        "Retorna o tipo de dado de uma variável",
-        "Compara dois valores",
-        "Converte um valor para uma string"
+        "Ferro",
+        "Alumínio",
+        "Ouro"
       ],
-      correta: 0 // A resposta correta é a primeira opção (Retorna o tipo de dado de uma variável)
+      correta: 1 // Resposta correta: Alumínio
     }
   ];
+  
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
